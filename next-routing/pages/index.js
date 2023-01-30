@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+// scenario -1 
 function Home() {
   const router = useRouter()
 

@@ -1,3 +1,4 @@
+// scn -4 dynamic route /product/id
 import Link from 'next/link'
 
 function ProductList({ productId = 100 }) {

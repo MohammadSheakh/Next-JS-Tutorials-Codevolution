@@ -1,3 +1,5 @@
+// /product/1/review/1 -> give us the first review
+// written about the product .. 
 import { useRouter } from 'next/router'
 
 function Review() {

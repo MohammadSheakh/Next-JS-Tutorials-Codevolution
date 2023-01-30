@@ -1,3 +1,4 @@
+// scn -2
 function Profile() {
   return <h1>Profile Page</h1>
 }
