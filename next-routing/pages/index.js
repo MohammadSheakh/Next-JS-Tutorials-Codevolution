@@ -8,7 +8,7 @@ function Home() {
     const handleClick = () => {
         console.log("Placing your order");
         router.push("/product"); // programmatically navigate
-        // router.replace ("/product");
+        // router.replace("/product");
     };
     return (
         <>
