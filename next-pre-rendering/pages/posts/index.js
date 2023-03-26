@@ -11,6 +11,8 @@ function PostList({ posts }) {
                 return (
                     <div key={post.id}>
                         <Link href={`posts/${post.id}`}>
+                            {/* // what is passHref here */}
+
                             <h2>
                                 {post.id} {post.title}
                             </h2>
@@ -32,7 +34,8 @@ export async function getStaticProps() {
     return {
         // from the function , we must return an object which must contains a props key .
         props: {
-            posts: data.slice(0, 3), // it returns 100 post , so, lets keep it minimum .
+            //posts: data.slice(0, 3), // it returns 100 post , so, lets keep it minimum .
+            posts: data, // it returns all posts of API / database
         },
     };
 }
